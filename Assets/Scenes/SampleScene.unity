@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -588,193 +585,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
+      - m_Target: {fileID: 1497173185}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1865678488}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1588943763}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1537491827}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1541618624}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1138287011}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1701584661}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 942087193}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1181473047}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 173377777}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1837502980}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 558624546}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1566716436}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 422564736}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1535303797}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 923368335}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1497173186}
-        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
-        m_MethodName: ObtenerCoordenadas
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1196456740}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1431,7 +1248,7 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 0}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1471,15 +1288,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1638,22 +1457,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875989311}
   m_CullTransparentMesh: 1
+--- !u!1 &894591316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 719145087576378490, guid: 47ad2207e91b9dc4d89bbe4e2bb825ff, type: 3}
+  m_PrefabInstance: {fileID: 2004919288929540254}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &923368334 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1337799966837720735, guid: 47ad2207e91b9dc4d89bbe4e2bb825ff, type: 3}
   m_PrefabInstance: {fileID: 2004919288929540254}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &923368335 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8226399304048414523, guid: 47ad2207e91b9dc4d89bbe4e2bb825ff, type: 3}
-  m_PrefabInstance: {fileID: 2004919288929540254}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &942087191
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,6 +2103,165 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fila: 2
   columna: 4
+--- !u!1 &1381571857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381571858}
+  - component: {fileID: 1381571862}
+  - component: {fileID: 1381571861}
+  - component: {fileID: 1381571860}
+  - component: {fileID: 1381571859}
+  m_Layer: 0
+  m_Name: Button (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1381571858
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381571857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 5.460585, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1755452940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1086, y: -271}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1381571859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381571857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc91c71e077a50540b45390210912541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fila: 2
+  columna: 4
+--- !u!114 &1381571860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381571857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1381571861}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1497173186}
+        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
+        m_MethodName: EstablecerEntrada
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1381571860}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1497173186}
+        m_TargetAssemblyTypeName: AsignarEntradaySalida, Assembly-CSharp
+        m_MethodName: EstablecerSalida
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1381571860}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1381571861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381571857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.061918736, g: 0, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1381571862
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381571857}
+  m_CullTransparentMesh: 1
 --- !u!1 &1482074738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1497173187}
   - component: {fileID: 1497173186}
+  - component: {fileID: 1497173188}
   m_Layer: 0
   m_Name: EventManager
   m_TagString: Untagged
@@ -2367,7 +2340,25 @@ MonoBehaviour:
   SelectorActivadorSalida: 0
   s1: 0
   s2: 0
-  Botones: []
+  Botones:
+  - {fileID: 1865678486}
+  - {fileID: 1588943761}
+  - {fileID: 1537491825}
+  - {fileID: 1541618622}
+  - {fileID: 1138287009}
+  - {fileID: 1535303795}
+  - {fileID: 894591316}
+  - {fileID: 1196456738}
+  - {fileID: 1701584659}
+  - {fileID: 558624544}
+  - {fileID: 1566716434}
+  - {fileID: 422564734}
+  - {fileID: 942087191}
+  - {fileID: 1181473045}
+  - {fileID: 173377775}
+  - {fileID: 1837502978}
+  Actor: {fileID: 1381571857}
+  velocidadMovimiento: 1
 --- !u!4 &1497173187
 Transform:
   m_ObjectHideFlags: 0
@@ -2383,6 +2374,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1497173188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497173185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccef33d267c0fef40b0185b30170e37d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filas: 4
+  columnas: 4
+  actor: {fileID: 1381571857}
+  tiempoEspera: 0.5
 --- !u!1 &1535303795
 GameObject:
   m_ObjectHideFlags: 0
@@ -3488,6 +3495,7 @@ Transform:
   - {fileID: 1535303796}
   - {fileID: 923368334}
   - {fileID: 1196456739}
+  - {fileID: 1381571858}
   m_Father: {fileID: 218176213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1837502978
@@ -3659,17 +3667,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 333882281782777808, guid: 6e4b26eb1ebe7b74aa8740324131d3d3, type: 3}
   m_PrefabInstance: {fileID: 2137385845877221000}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1865678488 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4365909912562210575, guid: 6e4b26eb1ebe7b74aa8740324131d3d3, type: 3}
-  m_PrefabInstance: {fileID: 2137385845877221000}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865678486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1865678491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3744,7 +3741,7 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 0}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3784,15 +3781,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -3878,7 +3877,7 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 0}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3918,15 +3917,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_TextWrappingMode: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
